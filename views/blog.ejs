@@ -1,0 +1,14 @@
+<%- include('partials/header.ejs'); -%>
+<div class="form-group">
+  <h1>Computer Clinic</h1>
+  <p> <%=firstHeader%> </p>
+
+
+  <%post.forEach(function(content){%>
+    <h1><%=content.name%></h1>
+    <p><%=content.content.substring(0,100) + "..."%><a href="/posts/<%=content.name%>">read more</a></p>
+  <%})%>
+</div>
+
+
+<%- include('partials/footer.ejs'); -%>

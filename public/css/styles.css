@@ -1,0 +1,88 @@
+.bg-custom {
+background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+
+.navbar-brand, .nav-link{
+    color: white;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: white;
+}
+
+.polygon {
+    float: right;
+    width: 463;
+    height: 463px;
+    margin-top: 0;
+    margin-right: 0;
+    clip-path: polygon(46% 0%, 100% 0%, 100% 60%, 52% 100%, 0 100%, 0 40%);
+    background-image: url("/images/computer_repair.jpg");
+    background-size: 463px 463px;
+    width:463px;
+    height:463px;
+    /* linear-gradient(15deg, #13547a 0%, #80d0c7 100%), */
+    /* clip-path: circle(100% at 0%);; */
+}
+
+
+.rowbtn{
+  background: #13547a;
+  color: white;
+}
+
+
+
+.bg-1{
+  background: url("/images/workstation.png");
+}
+.bg-2{
+  background: url("/images/workstation.png");
+}
+.bg-3{
+  background: url("/images/workstation.png");
+}
+
+.row-div h2 {
+  color: black;
+  font-weight: bolder;
+}
+
+.row-div p{
+  color: grey
+}
+
+.row{
+  margin: 40px
+}
+
+.form-group{
+  margin: 20px 100px 60px 100px;
+}
+
+
+
+.footer {
+	text-align: center;
+	width: 100%;
+  bottom: 0;
+	/* height: 60px; */
+	background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+
+.footer p {
+  padding: 20px;
+	font-size: 16px;
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+
+@media (max-width: 764px) {
+/* polygon */
+  .polygon{
+    display: none;
+  }
+}
+
+/* center down divs */
